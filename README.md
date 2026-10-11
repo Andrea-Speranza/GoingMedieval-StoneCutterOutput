@@ -38,7 +38,7 @@ Per un test pulito e' preferibile usare nuovi ordini di estrazione e produzione.
 
 ## Personalizzazione
 
-- Le rese minerarie sono in `Data/Resources/DigMarkers.json`, nei campi `amount`.
-- Le rese di blocchi e mattoni sono in `Data/Resources/Production.json`, nei campi `amount` associati a `limestone_block` e `clay_brick`.
+- Le rese minerarie sono in `Data/Models/DigMarkers.json`, nei campi `amount`.
+- Le rese di blocchi e mattoni sono in `Data/Models/Production.json`, nei campi `amount` associati a `limestone_block` e `clay_brick`.
 
 Dopo ogni modifica, chiudi e riavvia il gioco. Mantieni numeri interi e non rimuovere virgole, parentesi o virgolette dal JSON.
