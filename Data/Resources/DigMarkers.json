@@ -1,0 +1,55 @@
+{
+  "repository": [
+    {
+      "id": "dig_marker_clay",
+      "storedResources": [
+        { "blueprintId": "clay", "amount": 25 }
+      ]
+    },
+    {
+      "id": "dig_marker_limestone",
+      "storedResources": [
+        { "blueprintId": "limestone", "amount": 25 }
+      ]
+    },
+    {
+      "id": "dig_marker_impurelimestone",
+      "storedResources": [
+        { "blueprintId": "limestone", "amount": 6 }
+      ]
+    },
+    {
+      "id": "dig_marker_salt",
+      "storedResources": [
+        { "blueprintId": "salt", "amount": 30 }
+      ]
+    },
+    {
+      "id": "dig_marker_coal",
+      "storedResources": [
+        { "blueprintId": "coal", "amount": 25 }
+      ]
+    },
+    {
+      "id": "dig_marker_iron",
+      "storedResources": [
+        { "blueprintId": "iron", "amount": 30 },
+        { "blueprintId": "limestone", "amount": 3 }
+      ]
+    },
+    {
+      "id": "dig_marker_silver",
+      "storedResources": [
+        { "blueprintId": "silver", "amount": 120 },
+        { "blueprintId": "limestone", "amount": 3 }
+      ]
+    },
+    {
+      "id": "dig_marker_gold",
+      "storedResources": [
+        { "blueprintId": "gold", "amount": 120 },
+        { "blueprintId": "limestone", "amount": 3 }
+      ]
+    }
+  ]
+}

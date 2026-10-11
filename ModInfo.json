@@ -1,0 +1,11 @@
+{
+    "id": "andrea_hope_ita.stonecutter_output",
+    "name": "More Mining & Masonry Output",
+    "description": "Increases mineral yields by about 50% and raises limestone block and clay brick production from 20 to 30 per cycle.",
+    "author": "Andrea_hope {ITA}",
+    "modVersion": "1.0.0",
+    "gameVersion": "1.1.19",
+    "tags": [
+        "General"
+    ]
+}

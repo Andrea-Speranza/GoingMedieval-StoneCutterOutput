@@ -1,0 +1,17 @@
+{
+  "repository": [
+    {
+      "id": "limestone_block",
+      "produced": [
+        { "blueprintID": "limestone_block", "amount": 30 }
+      ]
+    },
+    {
+      "id": "clay_brick",
+      "produced": [
+        { "blueprintID": "clay_brick", "amount": 30 },
+        { "blueprintID": "ash", "amount": 50 }
+      ]
+    }
+  ]
+}
