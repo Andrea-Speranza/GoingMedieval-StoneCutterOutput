@@ -43,6 +43,18 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1 -Zip
 
 La cartella Mods del gioco e' `Documenti\Foxy Voxel\Going Medieval\Mods`. Con `-ModsPath` puoi indicarne un'altra, con `-FolderName` cambi il nome della cartella della mod.
 
+## Pubblicare una release
+
+1. Aggiorna `modVersion` in `ModInfo.json` e fai il commit.
+2. Crea e pusha il tag con la stessa versione:
+
+```powershell
+git tag v1.0.0
+git push origin main v1.0.0
+```
+
+GitHub Actions esegue `build.ps1 -Zip` e pubblica una release con allegato `StoneCutterOutput-v1.0.0.zip`. Se il tag non corrisponde a `modVersion`, la release non viene creata.
+
 ## Attivazione e prova
 
 1. Avvia Going Medieval.
