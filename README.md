@@ -26,6 +26,23 @@ Mod per Going Medieval 1.1.19.
 
 Tempi di lavoro, combustibile e tutti gli altri parametri restano invariati.
 
+## Build e installazione
+
+Lo script `build.ps1` controlla che i JSON siano validi e crea la cartella della mod in `dist\StoneCutterOutput`.
+
+```powershell
+# Solo build in dist\
+powershell -ExecutionPolicy Bypass -File .\build.ps1
+
+# Build + installazione nella cartella Mods del gioco
+powershell -ExecutionPolicy Bypass -File .\build.ps1 -Install
+
+# Build + archivio zip
+powershell -ExecutionPolicy Bypass -File .\build.ps1 -Zip
+```
+
+La cartella Mods del gioco e' `Documenti\Foxy Voxel\Going Medieval\Mods`. Con `-ModsPath` puoi indicarne un'altra, con `-FolderName` cambi il nome della cartella della mod.
+
 ## Attivazione e prova
 
 1. Avvia Going Medieval.
